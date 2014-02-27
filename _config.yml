@@ -5,7 +5,7 @@ markdown: kramdown
 pygments: true
 
 #Prose.io editing info
-repo_name: open-source-program-template
+repo_name: open-data-program-template
 branch: gh-pages
 #GitHub organization name *or* username
 gh_org: virtix
@@ -23,7 +23,7 @@ subtitle: A set of templates and artifacts to support open source programs
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
 #baseurl: ''
-baseurl: '/open-source-program-template'
+baseurl: '/open-data-program-template'
 
 # Author/Organization info to be displayed in the templates
 author:
