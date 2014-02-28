@@ -10,7 +10,7 @@ branch: gh-pages
 #GitHub organization name *or* username
 gh_org: virtix
 prose_url: http://prose.io
-site_url: http://if.io/open-source-program-template
+site_url: http://gsa.github.io/open-data-program-template
 media: assets/img
 
 
