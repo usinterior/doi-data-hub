@@ -15,8 +15,8 @@ media: assets/img
 
 
 # Your Programs's Name
-name: A Government Open Source Program
-subtitle: A set of templates and artifacts to support open source programs 
+name: A Government Open Data Program
+subtitle: A set of templates and artifacts to support open data programs 
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
@@ -42,7 +42,7 @@ navigation:
 - text: Guiding Principles
   url: pages/guiding_principles.html
   internal: true
-- text: Open Source Policy
+- text: Open Data Policy
   url: pages/oss_policy.html
   internal: true
 - text: News
