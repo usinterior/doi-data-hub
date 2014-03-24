@@ -4,7 +4,7 @@ title: "Open Data at DOI"
 ---
 
 <blockquote class="quote">
-"Open data means taking data that is sitting in the vaults of the government, that the taxpayers have already paid for, and jujistu-ing it into the public domain as machine-readable fuel for entrepreneurship and innovation."<br/><em style="position:relative; left:35%;">Todd Park, U.S. Chief Technology Officer</em>
+Open data means taking data that is sitting in the vaults of the government, that the taxpayers have already paid for, and jujistu-ing it into the public domain as machine-readable fuel for entrepreneurship and innovation.<br/><em style="position:relative; left:35%;">Todd Park, U.S. Chief Technology Officer</em>
 </blockquote>
 
 #### What is Open Data?
