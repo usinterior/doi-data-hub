@@ -12,4 +12,4 @@ published: true
  Replace these two lines with your desired content.
 
 {% endcomment %}
-{% include howto.md %}
+{% include home_text.md %}

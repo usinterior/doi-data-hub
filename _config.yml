@@ -44,8 +44,8 @@ navigation:
   url: pages/featured_data.html
   internal: true
 - text: Full Data Catalog
-  url: http://data.doi.gov/
-  internal: false
+  url: pages/data_catalog.html
+  internal: true
 - text: Feedback
   url: pages/feedback.html
   internal: true
