@@ -52,9 +52,9 @@ navigation:
 - text: News
   url: pages/news.html
   internal: true
-- text: Open Data at DOI
-  url: pages/open_by_default.html
-  internal: true
+# - text: Open Data at DOI
+#   url: pages/open_by_default.html
+#   internal: true
 - text: Developers
   url: http://www.doi.gov/developer/index.cfm
   internal: false
