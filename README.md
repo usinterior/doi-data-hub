@@ -1,4 +1,4 @@
-open-source-program-template
+Department of the Interior Data Hub
 ============================
 
-This is a set of artifacts that an organization can use to help support and open source program
+This is the code behind the Department of the Interior's Data Hub. Please see the gh-pages branch to view code and activity.
