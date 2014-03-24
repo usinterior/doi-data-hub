@@ -8,15 +8,15 @@ pygments: true
 repo_name: open-data-program-template
 branch: gh-pages
 #GitHub organization name *or* username
-gh_org: virtix
+gh_org: USInterior
 prose_url: http://prose.io
-site_url: http://gsa.github.io/open-data-program-template
+site_url: http://usinterior.github.io/open-data-program-template
 media: assets/img
 
 
 # Your Programs's Name
-name: A Government Open Data Program
-subtitle: A set of templates and artifacts to support open data programs 
+name: Department of the Interior Data Hub
+subtitle: A hub for data at the Department of the Interior
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
@@ -27,7 +27,7 @@ baseurl: '/open-data-program-template'
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: Thomas Jefferson 
+  name: U.S. Departemtn of the Interior
   url: http://localhost:4000
 
 # ------------------------------------------------------------------
@@ -35,32 +35,26 @@ author:
 #   List links that should appear in the site sidebar here
 #   "pages" is a directory to keep web content that are not posts
 # ------------------------------------------------------------------
+
 navigation:
 - text: Home
   url: index.html
   internal: true
-- text: Guiding Principles
-  url: pages/guiding_principles.html
-  internal: true
-- text: Open Data Policy
-  url: pages/oss_policy.html
-  internal: true
+- text: Data Catalog
+  url: http://data.doi.gov/
+  internal: false
+- text: Feedback
+  url: http://usinterior.ideascale.com/
+  internal: false
 - text: News
   url: pages/news.html
   internal: true
-- text: Open By Default
+- text: Open Source at DOI
   url: pages/open_by_default.html
   internal: true
-- text: FAQs
-  url: pages/faq.html
-  internal: true 
-- text: Processes &amp; Procedures
-  url: pages/workflows.html
-  internal: true
-- text: References
+- text: Developers
   url: pages/references.html
   internal: true
-## You should remove or comment these next few lines when going live 
-- text: How to configure this site
-  url: pages/howto.html
+- text: Featured Data
+  url: pages/references.html
   internal: true

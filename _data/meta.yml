@@ -3,19 +3,18 @@
 # below accordingly.
 # See http://yaml.org for details about YAML
 #
-org_name:  YOUR ORGANIZATION NAME
-org_abbrev: YON
+org_name:  U.S. Department of the Interior
+org_abbrev: DOI
 address:
- street: 1000 Main Street
+ street: 1849 C St NW
  suite: 
  city: Washington
  state: D.C.
- zip: 20000
-point_of_contact: Thomas Jefferson 
+ zip: 20240
+point_of_contact: Michelle Hertzfeld
 # A valid HREF--email, form, etc.
-poc_link: mailto:tj@monticello.gov
-poc_phone: 123-123-1234
+poc_link: mailto:michelle.hertzfeld@onrr.gov
 sponsoring_office: Office of the Chief Information Officer
-logo_url: /assets/img/USA_flag_icon.png
+logo_url: /assets/img/U_S__Department_of_the_Interior.gif
 home_url: index.html
 

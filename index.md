@@ -1,6 +1,6 @@
 ---
 layout: default
-title: United States Open Source Program
+title: Department of the Interior Data Hub
 published: true
 ---
 
@@ -10,7 +10,7 @@ published: true
 
 {% comment %} 
  Replace these two lines with your desired content. I'm logged out of GH. Can I still
- make edits? 
+ make edits? I don't know.
 
 {% endcomment %}
 {% include howto.md %}

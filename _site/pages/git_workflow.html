@@ -20,18 +20,17 @@
 
       <header role="banner">
 
-      <!-- Fork Me at GitHub banner. Remove, of course -->
-      <a href="https://github.com/virtix/open-source-program-template"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+      
       
 
       <div class="wrap">
         
-        <h1><a class="title-link" href="/">A Government Open Source Program</a></h1>
+        <h1><a class="title-link" href="/">Department of the Interior Data Hub</a></h1>
         <div style="float:right">
             <!-- This should be a configurable item in data/ -->
 
             <a href="/index.html" class="title-link">
-                <img height="52" src="/assets/img/USA_flag_icon.png" alt="Your agency logo">
+                <img height="52" src="/assets/img/U_S__Department_of_the_Interior.gif" alt="Your agency logo">
             </a>
         </div>
       </div>
@@ -40,7 +39,7 @@
       <div class="wrap content">
 
           <aside>
-  <p class="intro">A set of templates and artifacts to support open source programs</p>
+  <p class="intro">A hub for data at the Department of the Interior</p>
   <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
   <nav role="navigation">
     <ul>
@@ -50,11 +49,11 @@
         
         
         
-          <li><a href="/pages/guiding_principles.html">Guiding Principles</a></li>
+          <li><a href="http://data.doi.gov/">Data Catalog</a></li>
         
         
         
-          <li><a href="/pages/oss_policy.html">Open Source Policy</a></li>
+          <li><a href="http://usinterior.ideascale.com/">Feedback</a></li>
         
         
         
@@ -62,29 +61,19 @@
         
         
         
-          <li><a href="/pages/open_by_default.html">Open By Default</a></li>
+          <li><a href="/pages/open_by_default.html">Open Source at DOI</a></li>
         
         
         
-          <li><a href="/pages/faq.html">FAQs</a></li>
+          <li><a href="/pages/references.html">Developers</a></li>
         
         
         
-          <li><a href="/pages/workflows.html">Processes &amp; Procedures</a></li>
-        
-        
-        
-          <li><a href="/pages/references.html">References</a></li>
-        
-        
-        
-          <li><a href="/pages/howto.html">How to configure this site</a></li>
+          <li><a href="/pages/references.html">Featured Data</a></li>
         
         
 
-        <!-- Prose.io edit link -->
-        <li><a href="http://prose.io#virtix/open-source-program-template/edit/gh-pages/pages/git_workflow.md" target="_blank">Edit this page on prose.io</a>
-</li>
+        
     </ul>
   </nav>
 </aside>
@@ -153,9 +142,9 @@ here are some guidelines to follow:</p>
 <p>Simply, a <em>Developer</em> is a person or roles who writes software. A <em>Maintainer</em> controls what is allowed to be in 
 the central reposisitory. A person may be <em>both</em> a Developer and a Maintainer, but preferably not on the same code.</p>
 
-<p><strong>Developers</strong> write code in their repo and do not have commit access to the YOUR ORGANIZATION NAME master branches.</p>
+<p><strong>Developers</strong> write code in their repo and do not have commit access to the U.S. Department of the Interior master branches.</p>
 
-<p><strong>Maintainers</strong> own and are accountable for the YOUR ORGANIZATION NAME master branches. They ensure that any code there adheres to 
+<p><strong>Maintainers</strong> own and are accountable for the U.S. Department of the Interior master branches. They ensure that any code there adheres to 
 all defined criteria. Additionally, they determine the version (tag) of each repository.</p>
 
 <hr />
@@ -170,7 +159,7 @@ all defined criteria. Additionally, they determine the version (tag) of each rep
 maintainer to use GitHub pull requests and lists the developer in the maintainer’s network. This is very useful in 
 larger projects with many committers. </li>
   <li><strong>Integration branch</strong> – a branch that is only used to merge work in from other branches. <code>master</code>, 
-for example, should be an integration branch. In most cases, it’s a bad idea to code directly on YOUR ORGANIZATION NAME’s master 
+for example, should be an integration branch. In most cases, it’s a bad idea to code directly on U.S. Department of the Interior’s master 
 branches. </li>
   <li><strong><code>origin</code></strong> refers the main remote repository (production).</li>
   <li><strong>Tracking branch</strong> – a local branch that is set up to track a branch in some remote repository.</li>
@@ -189,15 +178,15 @@ the main/live/production distribution.</li>
 The end.</li>
   <li>Never code on <code>origin/master</code>, because it’s an integration branch. Code on some other branch in your own 
 repository and make pull requests. </li>
-  <li>Create a remote in your repo that points to the YOUR ORGANIZATION NAME repo you’re working on:</li>
+  <li>Create a remote in your repo that points to the U.S. Department of the Interior repo you’re working on:</li>
 </ul>
 
-<div class="highlight"><pre><code class="console"><span class="gp">$</span> git remote add org_remote git://github.com/YOUR ORGANIZATION NAME/<span class="o">[</span>reponame<span class="o">]</span>.git
-<span class="gp">$</span> git fetch YOUR ORGANIZATION NAME
+<div class="highlight"><pre><code class="console"><span class="gp">$</span> git remote add org_remote git://github.com/U.S. Department of the Interior/<span class="o">[</span>reponame<span class="o">]</span>.git
+<span class="gp">$</span> git fetch U.S. Department of the Interior
 </code></pre></div>
 
 <ul>
-  <li><em>Merge early and often</em>, that is, keep your work in sync with YOUR ORGANIZATION NAME/origin.</li>
+  <li><em>Merge early and often</em>, that is, keep your work in sync with U.S. Department of the Interior/origin.</li>
 </ul>
 
 <div class="highlight"><pre><code class="console"><span class="gp">$</span> git pull --all org_remote
@@ -395,13 +384,13 @@ tabs from our GHE and github.com. To remedy this, you can use a Chrome extension
 
 <ol>
   <li>Fork or clone <code>https://github.com/marcesher/github-enterprise-change-favicon-color.git</code></li>
-  <li>Open the manifest file and change the <code>matches</code> to: <code>"https://github.YOUR ORGANIZATION NAME.gov/*"</code></li>
+  <li>Open the manifest file and change the <code>matches</code> to: <code>"https://github.U.S. Department of the Interior.gov/*"</code></li>
   <li>In Chrome, go to <code>chrome://extensions</code></li>
   <li>Check the <code>Developer Mode</code> checkbox</li>
   <li>Click <code>Load Unpacked Extension</code></li>
   <li>Navigate to your <code>github-enterprise-change-favicon-color</code> directory and click through to install</li>
   <li>When the Extensions screen shows your new extension, click the “Options” link and choose your color.</li>
-  <li>Reload a <code>github.YOUR ORGANIZATION NAME.gov</code> URL and your icon should appear as a different color</li>
+  <li>Reload a <code>github.U.S. Department of the Interior.gov</code> URL and your icon should appear as a different color</li>
   <li>If the size is wrong (i.e. it shrinks, or it’s chopped off), go back to the options page and choose a different
 image size</li>
 </ol>
@@ -456,7 +445,7 @@ items appear.</p>
         
         
         <footer role="contentinfo">
-          <p>This project is maintained by <a href="mailto:tj@monticello.gov">Thomas Jefferson</a></p>
+          <p>This project is maintained by <a href="mailto:michelle.hertzfeld@onrr.gov">Michelle Hertzfeld</a></p>
  
           <p>Hosted on Github Pages</p>
         </footer>
