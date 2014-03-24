@@ -55,9 +55,6 @@ navigation:
 - text: Open Data at DOI
   url: pages/open_by_default.html
   internal: true
-- text: Open Source at DOI
-  url: pages/open_by_default.html
-  internal: true
 - text: Developers
-  url: pages/references.html
-  internal: true
+  url: http://www.doi.gov/developer/index.cfm
+  internal: false
