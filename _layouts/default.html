@@ -19,22 +19,18 @@
 
 
       <header role="banner">
-
-      
-      
-
       <div class="wrap">
         {% if site.logourl != null %}
           <img class="logo" src="{{site.logourl}}" alt="{{site.logoalt}}">
         {% endif %}
         <h1><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-        <div style="float:right">
-            <!-- This should be a configurable item in data/ -->
+        <!-- <div style="float:left">
+            
 
             <a href="{{ site.baseurl }}/{{ site.data.meta.home_url }}" class="title-link">
                 <img height="52" src="{{ site.baseurl }}{{ site.data.meta.logo_url}}" alt="Your agency logo">
             </a>
-        </div>
+        </div> -->
       </div>
       </header>
 
@@ -48,9 +44,7 @@
         
         
         <footer role="contentinfo">
-          <p>This project is maintained by <a href="{{ site.data.meta.poc_link }}">{{ site.data.meta.point_of_contact }}</a></p>
- 
-          <p>Hosted on Github Pages</p>
+          <p>Hosted on Github Pages. <a href="">Help make this site better by suggesting improvements.</a></p>
         </footer>
 
       </div><!-- /.wrap -->
