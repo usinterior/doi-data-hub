@@ -4,14 +4,14 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: kramdown
 pygments: true
 
-#Prose.io editing info
-repo_name: doi-data-hub
-branch: gh-pages
-#GitHub organization name *or* username
-gh_org: USInterior
-prose_url: http://prose.io
-site_url: http://usinterior.github.io/doi-data-hub
-media: assets/img
+# #Prose.io editing info
+# repo_name: doi-data-hub
+# branch: gh-pages
+# #GitHub organization name *or* username
+# gh_org: USInterior
+# prose_url: http://prose.io
+# site_url: http://usinterior.github.io/doi-data-hub
+# media: assets/img
 
 
 # Your Programs's Name

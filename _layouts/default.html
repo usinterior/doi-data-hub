@@ -20,8 +20,8 @@
 
       <header role="banner">
       <div class="wrap">
-        {% if site.logourl != null %}
-          <img class="logo" src="{{site.logourl}}" alt="{{site.logoalt}}">
+        {% if site.data.meta.logo_url != null %}
+          <img class="logo" src="{{ site.baseurl }}{{ site.data.meta.logo_url }}" alt="{{ site.data.meta.logo_alt }}">
         {% endif %}
         <h1><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
         <!-- <div style="float:left">
