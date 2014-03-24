@@ -47,8 +47,8 @@ navigation:
   url: http://data.doi.gov/
   internal: false
 - text: Feedback
-  url: http://usinterior.ideascale.com/
-  internal: false
+  url: pages/feedback.html
+  internal: true
 - text: News
   url: pages/news.html
   internal: true
