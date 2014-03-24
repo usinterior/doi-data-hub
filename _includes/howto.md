@@ -1,78 +1,30 @@
 
-
-## How to configure and edit this page and site
-
-This site is built with [Jekyll](http://jekyllrb.com/), so you should 
-have that installed and be familiar with it.
+"Open data means taking data that is sitting in the vaults of the government, that the taxpayers have already paid for, and jujistu-ing it into the public domain as machine-readable fuel for entrepreneurship and innovation." -- Todd Park, U.S. Chief Technology Officer
 
 
-#### Quick Start
+#### What is Open Data?
 
-1. Fork this repo/site by clicking the ["Fork me on GitHub"](https://github.com/virtix/open-source-program-template)
-ribbon in the upper right-hand corner.
-2. Make sure the default branch is set to ```gh-pages```. This can be found in your [project's settings](https://github.com/YOUR_USERNAME/open-source-program-template/settings)
-3. Navigate to [http://YOUR_USERNAME.github.io](http://YOUR_USERNAME.github.io)
-    You should see the un-edited micro-site.
-4. Navigate to [prose.io](http://prose.io) and log in with your GitHub account
-5. Find the ```opensource-program-template``` and use prose.io to edit files and create content.
+Open data is data that is freely available to everyone to use and republish for their own purposes. In the context of government open data, this means that Departments should adopt a presumption in favor of openness to the extent permitted by law and subject to privacy, confidentiality, security, or other valid restrictions.
+
+Open data is managed and provided in a way that makes it understandable and usable. The government's (and taxpayer's) investment in data therefore becomes an an asset that can be used and reused for maximum return inside and outside of government. Learn more about what government is doing to make this happen, and join the conversation, at [Project Open Data](http://project-open-data.github.io/).
 
 
-#### Editing this page
+#### Looking for DOI data?
 
-Edit the ```index.md``` file in your project root to add welcome content and
-any other data you want. 
-
-**Note**: Make sure to change the ```title: ...```.
+Look no further! Search for and discover DOI data and data products at our [data.doi.gov beta data catalog](http://data.doi.gov/)! Please note that our catalog was recently launched on November 30, 2013. Expect constant improvement over the next few months as we work out issues and respond to feedback. DOI data is also available (along with data from other Federal departments) at [data.gov](http://www.data.gov/).
 
 
 
-#### Removing the "Fork me on GitHub" ribbon
+#### Have a data suggestion for us?
 
-Edit the ```_layouts\default.html``` file. The ribbon code is on 
-about line #23. Just replace it or delete it.
-
-
-#### Changing information about your organization
-
-Navigate to the file ```data/meta.yml```.  This is a data file and contains
-basic information about your organization&mdash;name, address, point of contact, etc.
+We welcome your feedback, and have started a space for you to suggest ideas, comment on other ideas, and rank what you think is important. Head over to [usinterior.ideascale.com](http://usinterior.ideascale.com/) and leave us a note. We're especially interested in hearing what datasets you'd like to see that would serve you or your business better.
 
 
-{% highlight yaml %}
-org_name:  YOUR ORGANIZATION NAME
-org_abbrev: Y.O.N.
-address:
- street: 1000 Main Street
- suite: 
- city: Washington
- state: D.C.
- zip: 20000
-point_of_contact: Thomas Jefferson 
-...
-{% endhighlight %}
+#### The DOI FY14 Open Data Plan
 
+In the FY14 Open Data Plan for the Department of the Interior (DOI), we present our objectives, approach, and quarterly action plan for the fiscal year. In order to make our data assets more open and available, DOI has been building a Data Services Team and setting up basic processes and infrastructure (such as the DOI Enterprise Data Inventory at data.doi.gov), and collaborating with business and mission staff. Just like our business and programmatic data, our Departmental data teams and business subject matter experts in business programs, Bureaus and Offices are our most important strategic assets. During this process, DOI Bureaus and Offices have collaborated very closely, working together and helping each other. The DOI Open Data Initiative bridges our business, data management and IT programs -- **together we are working to discover the true value of data.**
 
-#### Changing the site's main title (default: A Government Open Source Program)
-
-Navigate to the file ```_config.yml``` in your project's root directory. Change the
-```name: ``` element on line 18 or so to your desired site's name.
-
-{% highlight yaml %}
-# Your Programs's Name
-name: A Government Open Source Program
-subtitle: A set of templates and artifacts to support open source programs 
-{% endhighlight %}
-
-
-#### Changing the site's logo
-
-Navigate to the file ```data/meta.yml``` and change the ```logo_url``` to a valid 
-location to your logo. This can either be an HTTP URL or a new local image file.
-
-{% highlight yaml %}
-logo_url: /assets/img/USA_flag_icon.png
-{% endhighlight %}
-
+View our plan [here](../assets/docs/DOIOpenDataFY14Plan.pdf) (pdf).
 
 
 #### Editing content
@@ -96,49 +48,4 @@ will automatically be displayed on the the [news page](news.html).
 #### Adding new pages
 
 Copy the ```pages/page_template.md``` file to ```pages/your_file_name.md``` and add content as desired.
-
-
-
-#### Adding/Changing Left-hand Navigation
-
-In your project's root directory, open ```_config.yml```.  Towards the bottom there is a 
-```navigation:``` node. Each child in the node represents a new navigation item.  Each item
-has text,url, and internal properties.  The ```text``` property is the text that is displayed 
-on the page. The ```url``` property is the target destination. 
-
-#### Working with GitHub pages
-
-Using Jekyll and GitHub pages allows you to easily manage and publish content. See
-[GitHub](https://help.github.com/articles/using-jekyll-with-pages) for more information.
-
-
-#### Working with [prose.io](https://github.com/prose/prose/wiki/Getting-Started)
-
-Prose.io is an open source tool for managing content on GitHub.
-Use it to create, edit, or delete files in your project.  Prose.io is _Jekyll-aware_
-so, it adds a few features if you are using Jekyll. These included the ability to 
-save _drafts_, and _publish_ or _unpublish_ posts.
-
-If you publish this using GitHub Pages, you can easily allow contributions.  Notice the
-the {% include prose_edit_url.html %} link in the left hand navigation.  You can customize this
-by editing the ```_config.yml``` file. Update the ```# Prose.io editing``` section with 
-your GitHub information:
-
-{%highlight yaml%}
-#Prose.io editing info
-repo_name: open-source-program-template
-branch: gh-pages
-#GitHub organization name *or* username
-gh_org: virtix
-prose_url: http://prose.io
-site_url: http://if.io/open-source-program-template
-media: assets/img
-{% endhighlight %}
-
-
-To remove the edit on prose.io link, remove the following lines from the
-```_includes/sidebar.html``` file:
-{% highlight html %}{% raw %}<!-- Prose.io edit link -->
- <li>{% include prose_edit_url.html %}</li>{% endraw %}
-{% endhighlight %}
 

@@ -83,69 +83,27 @@
           <h2 class="page-title">How to configure this site</h2>
 
 
-<h2 id="how-to-configure-and-edit-this-page-and-site">How to configure and edit this page and site</h2>
+<p>“Open data means taking data that is sitting in the vaults of the government, that the taxpayers have already paid for, and jujistu-ing it into the public domain as machine-readable fuel for entrepreneurship and innovation.” – Todd Park, U.S. Chief Technology Officer</p>
 
-<p>This site is built with <a href="http://jekyllrb.com/">Jekyll</a>, so you should 
-have that installed and be familiar with it.</p>
+<h4 id="what-is-open-data">What is Open Data?</h4>
 
-<h4 id="quick-start">Quick Start</h4>
+<p>Open data is data that is freely available to everyone to use and republish for their own purposes. In the context of government open data, this means that Departments should adopt a presumption in favor of openness to the extent permitted by law and subject to privacy, confidentiality, security, or other valid restrictions.</p>
 
-<ol>
-  <li>Fork this repo/site by clicking the <a href="https://github.com/virtix/open-source-program-template">“Fork me on GitHub”</a>
-ribbon in the upper right-hand corner.</li>
-  <li>Make sure the default branch is set to <code>gh-pages</code>. This can be found in your <a href="https://github.com/YOUR_USERNAME/open-source-program-template/settings">project’s settings</a></li>
-  <li>Navigate to <a href="http://YOUR_USERNAME.github.io">http://YOUR_USERNAME.github.io</a>
- You should see the un-edited micro-site.</li>
-  <li>Navigate to <a href="http://prose.io">prose.io</a> and log in with your GitHub account</li>
-  <li>Find the <code>opensource-program-template</code> and use prose.io to edit files and create content.</li>
-</ol>
+<p>Open data is managed and provided in a way that makes it understandable and usable. The government’s (and taxpayer’s) investment in data therefore becomes an an asset that can be used and reused for maximum return inside and outside of government. Learn more about what government is doing to make this happen, and join the conversation, at <a href="http://project-open-data.github.io/">Project Open Data</a>.</p>
 
-<h4 id="editing-this-page">Editing this page</h4>
+<h4 id="looking-for-doi-data">Looking for DOI data?</h4>
 
-<p>Edit the <code>index.md</code> file in your project root to add welcome content and
-any other data you want. </p>
+<p>Look no further! Search for and discover DOI data and data products at our <a href="http://data.doi.gov/">data.doi.gov beta data catalog</a>! Please note that our catalog was recently launched on November 30, 2013. Expect constant improvement over the next few months as we work out issues and respond to feedback. DOI data is also available (along with data from other Federal departments) at <a href="http://www.data.gov/">data.gov</a>.</p>
 
-<p><strong>Note</strong>: Make sure to change the <code>title: ...</code>.</p>
+<h4 id="have-a-data-suggestion-for-us">Have a data suggestion for us?</h4>
 
-<h4 id="removing-the-fork-me-on-github-ribbon">Removing the “Fork me on GitHub” ribbon</h4>
+<p>We welcome your feedback, and have started a space for you to suggest ideas, comment on other ideas, and rank what you think is important. Head over to <a href="http://usinterior.ideascale.com/">usinterior.ideascale.com</a> and leave us a note. We’re especially interested in hearing what datasets you’d like to see that would serve you or your business better.</p>
 
-<p>Edit the <code>_layouts\default.html</code> file. The ribbon code is on 
-about line #23. Just replace it or delete it.</p>
+<h4 id="the-doi-fy14-open-data-plan">The DOI FY14 Open Data Plan</h4>
 
-<h4 id="changing-information-about-your-organization">Changing information about your organization</h4>
+<p>In the FY14 Open Data Plan for the Department of the Interior (DOI), we present our objectives, approach, and quarterly action plan for the fiscal year. In order to make our data assets more open and available, DOI has been building a Data Services Team and setting up basic processes and infrastructure (such as the DOI Enterprise Data Inventory at data.doi.gov), and collaborating with business and mission staff. Just like our business and programmatic data, our Departmental data teams and business subject matter experts in business programs, Bureaus and Offices are our most important strategic assets. During this process, DOI Bureaus and Offices have collaborated very closely, working together and helping each other. The DOI Open Data Initiative bridges our business, data management and IT programs – <strong>together we are working to discover the true value of data.</strong></p>
 
-<p>Navigate to the file <code>data/meta.yml</code>.  This is a data file and contains
-basic information about your organization—name, address, point of contact, etc.</p>
-
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">org_name</span><span class="p-Indicator">:</span>  <span class="l-Scalar-Plain">YOUR ORGANIZATION NAME</span>
-<span class="l-Scalar-Plain">org_abbrev</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Y.O.N.</span>
-<span class="l-Scalar-Plain">address</span><span class="p-Indicator">:</span>
- <span class="l-Scalar-Plain">street</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">1000 Main Street</span>
- <span class="l-Scalar-Plain">suite</span><span class="p-Indicator">:</span> 
- <span class="l-Scalar-Plain">city</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Washington</span>
- <span class="l-Scalar-Plain">state</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">D.C.</span>
- <span class="l-Scalar-Plain">zip</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">20000</span>
-<span class="l-Scalar-Plain">point_of_contact</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Thomas Jefferson</span> 
-<span class="nn">...</span>
-</code></pre></div>
-
-<h4 id="changing-the-sites-main-title-default-a-government-open-source-program">Changing the site’s main title (default: A Government Open Source Program)</h4>
-
-<p>Navigate to the file <code>_config.yml</code> in your project’s root directory. Change the
-<code>name:</code> element on line 18 or so to your desired site’s name.</p>
-
-<div class="highlight"><pre><code class="yaml"><span class="c1"># Your Programs&#39;s Name</span>
-<span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">A Government Open Source Program</span>
-<span class="l-Scalar-Plain">subtitle</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">A set of templates and artifacts to support open source programs</span> 
-</code></pre></div>
-
-<h4 id="changing-the-sites-logo">Changing the site’s logo</h4>
-
-<p>Navigate to the file <code>data/meta.yml</code> and change the <code>logo_url</code> to a valid 
-location to your logo. This can either be an HTTP URL or a new local image file.</p>
-
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">logo_url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/assets/img/USA_flag_icon.png</span>
-</code></pre></div>
+<p>View our plan <a href="../assets/docs/DOIOpenDataFY14Plan.pdf">here</a> (pdf).</p>
 
 <h4 id="editing-content">Editing content</h4>
 
@@ -166,48 +124,6 @@ will automatically be displayed on the the <a href="news.html">news page</a>.  <
 <h4 id="adding-new-pages">Adding new pages</h4>
 
 <p>Copy the <code>pages/page_template.md</code> file to <code>pages/your_file_name.md</code> and add content as desired.</p>
-
-<h4 id="addingchanging-left-hand-navigation">Adding/Changing Left-hand Navigation</h4>
-
-<p>In your project’s root directory, open <code>_config.yml</code>.  Towards the bottom there is a 
-<code>navigation:</code> node. Each child in the node represents a new navigation item.  Each item
-has text,url, and internal properties.  The <code>text</code> property is the text that is displayed 
-on the page. The <code>url</code> property is the target destination. </p>
-
-<h4 id="working-with-github-pages">Working with GitHub pages</h4>
-
-<p>Using Jekyll and GitHub pages allows you to easily manage and publish content. See
-<a href="https://help.github.com/articles/using-jekyll-with-pages">GitHub</a> for more information.</p>
-
-<h4 id="working-with-proseiohttpsgithubcomproseprosewikigetting-started">Working with <a href="https://github.com/prose/prose/wiki/Getting-Started">prose.io</a></h4>
-
-<p>Prose.io is an open source tool for managing content on GitHub.
-Use it to create, edit, or delete files in your project.  Prose.io is <em>Jekyll-aware</em>
-so, it adds a few features if you are using Jekyll. These included the ability to 
-save <em>drafts</em>, and <em>publish</em> or <em>unpublish</em> posts.</p>
-
-<p>If you publish this using GitHub Pages, you can easily allow contributions.  Notice the
-the <a href="http://prose.io#USInterior/open-data-program-template/edit/gh-pages/pages/howto.md" target="_blank">Edit this page on prose.io</a>
- link in the left hand navigation.  You can customize this
-by editing the <code>_config.yml</code> file. Update the <code># Prose.io editing</code> section with 
-your GitHub information:</p>
-
-<div class="highlight"><pre><code class="yaml"><span class="c1">#Prose.io editing info</span>
-<span class="l-Scalar-Plain">repo_name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">open-source-program-template</span>
-<span class="l-Scalar-Plain">branch</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">gh-pages</span>
-<span class="c1">#GitHub organization name *or* username</span>
-<span class="l-Scalar-Plain">gh_org</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">virtix</span>
-<span class="l-Scalar-Plain">prose_url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://prose.io</span>
-<span class="l-Scalar-Plain">site_url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://if.io/open-source-program-template</span>
-<span class="l-Scalar-Plain">media</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">assets/img</span>
-</code></pre></div>
-
-<p>To remove the edit on prose.io link, remove the following lines from the
-<code>_includes/sidebar.html</code> file:</p>
-
-<div class="highlight"><pre><code class="html"><span class="c">&lt;!-- Prose.io edit link --&gt;</span>
- <span class="nt">&lt;li&gt;</span>{% include prose_edit_url.html %}<span class="nt">&lt;/li&gt;</span>
-</code></pre></div>
 
 
 
