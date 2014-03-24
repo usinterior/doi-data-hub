@@ -3,7 +3,7 @@ layout: page
 title: "Developers"
 ---
 
-Here you can find a range of web services and as we work on making this better, related developer resources.
+Here you can find a range of web services and, as we work to make this better, related developer resources.
 
 ##APIs by Bureau
 
