@@ -13,4 +13,5 @@ DOI data is also available (along with data from other Federal departments) at [
 This is where we want some form of interaction with our DOI CKAN to live. Perhaps 'latest 5 datasets' or the like.
 {% endcomment%}
 
-![DOI Data Catalog]({{ site.baseurl }}/assets/img/doi_ckan_screenshot_650w.jpg)
+[![DOI Data Catalog]({{ site.baseurl }}/assets/img/doi_ckan_screenshot_650w.jpg)](http://data.doi.gov/)
+
