@@ -20,3 +20,7 @@ In the FY14 Open Data Plan for the Department of the Interior (DOI), we present 
 Just like our business and programmatic data, our Departmental data teams and business subject matter experts in business programs, Bureaus and Offices are our most important strategic assets. During this process, DOI Bureaus and Offices have collaborated very closely, working together and helping each other. The DOI Open Data Initiative bridges our business, data management and IT programs -- **together we are working to discover the true value of data.**
 
 View our plan [here]({{ site.baseurl }}/assets/docs/DOIOpenDataFY14Plan.pdf) (pdf).
+
+#### DOI Data Release Process
+
+Coming soon!
