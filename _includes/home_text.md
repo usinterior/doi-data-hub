@@ -2,9 +2,11 @@
 
 #### Looking for DOI data?
 
-Look no further! We have *a lot* of data, and so we've collected some of our most popular and interesting datasets and data products in categories such as Energy, Recreation, and Water in our [Featured Data area]({{ site.baseurl }}/pages/featured_data.html).
+<span class="dataBadge">[![Featured data]({{ site.baseurl }}/assets/img/Featured_Data.png)]({{ site.baseurl }}/pages/featured_data.html)</span>Look no further! We have *a lot* of data, and so we've collected some of our most popular and interesting datasets and data products in categories such as Energy, Recreation, and Water in our [Featured Data area]({{ site.baseurl }}/pages/featured_data.html).
 
-If you want to search our entire public data listing, visit the [DOI beta data catalog](http://data.doi.gov/). Please note that our catalog was recently launched on November 30, 2013. Expect constant improvement over the next few months as we work out issues and respond to feedback.
+<div style="clear: both;"></div>
+
+<span class="dataBadge">[![Full data catalog]({{ site.baseurl }}/assets/img/Data_Catalog.png)](http://data.doi.gov/)</span>If you want to search our entire public data listing, visit the [DOI beta data catalog](http://data.doi.gov/). Please note that our catalog was recently launched on November 30, 2013. Expect constant improvement over the next few months as we work out issues and respond to feedback.
 
 DOI data is also available (along with data from other Federal departments) at [data.gov](http://www.data.gov/).
 

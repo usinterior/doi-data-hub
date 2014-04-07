@@ -351,7 +351,19 @@ li h4 {
     background-color: #E7E7E6;
     padding: 0 10px;
 }
-
+.dataBadge {
+    float: left;
+    padding-right: 12px;
+}
+.dataBadge img {
+    height: 80px;
+}
+.dataBadge a {
+    border-bottom: 0px;
+}
+.dataBadge a:hover, .dataBadge a:focus {
+    opacity: 0.87;
+}
 /*
 Post list
 ----------------------------------
