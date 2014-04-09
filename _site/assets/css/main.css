@@ -125,11 +125,12 @@ Lists
 */
 
 .main-content ul {
-    padding-left: 1.1em;
+    padding-left: 3.1em;
+    margin-top: -0.7em;
 }
 
 .main-content li {
-    margin-bottom: 1em;
+    margin-bottom: 0.2em;
 }
 
 li h3,
