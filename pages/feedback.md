@@ -3,8 +3,15 @@ layout: page
 title: "Feedback on DOI Data, Data Products and Data Services"
 ---
 
-####DOI welcomes your feedback
-Please let us know how we're doing on our data, data products and data services. We collect and respond to feedback on a site called [Ideascale](http://usinterior.ideascale.com/a/ideafactory.do?id=26901&mode=top&discussionFilter=active.ideation), where you can submit new ideas, and vote and comment on existing ideas.
+####We would like to hear about your DOI data experience
+Your input will guide us as we continue making improvements to enhance this service. Perhaps you:
++ Have a question
++ Would like to provide general feedback
++ Experienced technical difficulties, such as a broken link
++ Noticed something incorrect in the catalogue
++ Want to request new data
+
+We collect and respond to feedback on a site called [Ideascale](http://usinterior.ideascale.com/a/ideafactory.do?id=26901&mode=top&discussionFilter=active.ideation), where you can submit new ideas, and vote and comment on existing ideas.
 
 {% comment %}
 This is where the Ideascale feedback widgets live. For info on the widget and docs, see http://support.ideascale.com/customer/portal/articles/1001528--ideascale-widgets
