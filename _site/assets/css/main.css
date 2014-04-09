@@ -87,7 +87,7 @@ strong {
 
 h1 {
     font-size: 1.25em;
-    color: #75787B;
+    color: #ce9f13; /* DOI gold */
     margin: 0;
     line-height: 54px;
     display: inline-block;
@@ -162,7 +162,7 @@ a:visited {
 }
 
 a:hover {
-    border-bottom: 1px solid #ce9f13; /* DOI gold */
+    border-bottom: 1px solid #ce9f13;
     color: #ce9f13; 
     text-decoration: none;
 }
@@ -181,14 +181,14 @@ a:focus {
 }
 
 a.title-link {
-    color: #75787B;
+    color: #ce9f13; /* DOI gold */
     border-bottom: none;
 }
 
 a.title-link:hover,
 a.title-link:active,
 a.title-link:focus {
-    color: #ce9f13;
+    color: #75787B;
     border-bottom: none;
 }
 
