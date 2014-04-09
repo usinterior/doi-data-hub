@@ -8,7 +8,6 @@ Here you can find a range of web services and, as we work to make this better, r
 ##APIs by Bureau
 
 ####Bureau of Land Management
-
 + [Geocommunicator](http://www.blm.gov/nils/GeoComm/home_services.html)
 + [Geocommunicator Map and Web Services](http://www.geocommunicator.gov/GeoComm/services.htm)
 + [General Land Office Web Services](http://www.glorecords.blm.gov/WebServices/glorecords.asmx)
