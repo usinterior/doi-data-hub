@@ -14,8 +14,8 @@ Here you can find a range of web services and, as we work to make this better, r
 + [Landscape ARCGIS Server](http://www.landscape.blm.gov/ArcGIS/rest/services)
 
 ####Bureau of Ocean Energy Management
-+ [Marine Casatre ARCGIS Server](http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer)
-+ [Marine Casatre ARCGIS Server Documentation](http://gis.boemre.gov/arcgis/sdk/rest/)
++ [Marine Casastre ARCGIS Server](http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer)
++ [Marine Casastre ARCGIS Server Documentation](http://gis.boemre.gov/arcgis/sdk/rest/)
 
 ####Fish and Wildlife Service
 + [FWS Data Store API](http://ecos.fws.gov/servcatservices/)
