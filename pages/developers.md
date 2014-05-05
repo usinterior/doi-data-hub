@@ -41,11 +41,13 @@ Here you can find a range of web services and, as we work to make this better, r
 + [Water Services](http://waterservices.usgs.gov/)
 + [ScienceBase Web Services](https://www.sciencebase.gov/catalog/items?filter0=browseCategory%3DData)
 
-####Office of Service Mining Reclamation and Enforcement
+####Office of Surface Mining Reclamation and Enforcement
 + [OSMRE ARCGIS Server](http://geomine.osmre.gov/ArcGIS/rest)
 
 
 ##Other Resources
+Here's a sample of other API resources from across government.
+
 + [API Basics](http://www.howto.gov/api)
 + [Federal API Hubs](https://github.com/GSA/slash-developer-pages#readme)
 + [Government Open Source](http://gsa.github.io/federal-open-source-repos/)
